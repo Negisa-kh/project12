@@ -1,14 +1,11 @@
-
-// import { PhotoIcon, UserCircleIcon } from '@heroicons/react/24/solid'
-
-export default function Example() {
+export default function Prediction() {
   return (
     <div className='bg1 flex items-center justify-center '>
     <form className="w-[70rem] form1">
       <div className="space-y-12  mx-auto p-5">
 
         <div className="border-b border-gray-900/10 pb-12">
-          <h2 className="text-5xl font-semibold bg-pink-500  text-center rounded-lg text-white p-5">IVF Success Prediction CDSS</h2>
+          <h2 className="text-5xl font-semibold bg-violet-600  text-center rounded-lg text-white p-5">IVF Success Prediction CDSS</h2>
           <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
             <div className="sm:col-span-3">
               <label htmlFor="first-name" className="block text-sm/6 font-medium text-gray-900">
@@ -198,7 +195,7 @@ export default function Example() {
       <div className="mt-6 flex items-center justify-center  col-span-full">
         <button
           type="submit"
-          className="block w-full  border-0  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-pink-500 sm:text-sm/6    rounded-md bg-pink-500 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-pink-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-pink-500"
+          className="block w-full  border-0  ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-violet-600 sm:text-sm/6    rounded-md bg-violet-600 px-3 py-2 text-sm font-semibold text-white shadow-sm hover:bg-violet-600 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-violet-600"
         >
           Predict
         </button>
